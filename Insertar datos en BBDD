@@ -1,0 +1,17 @@
+Insertar datos en BBDD
+
+
+insert into editoriales
+(direccion,nombre)
+values
+('Alpedrete','Anaya')
+
+select * from public.editoriales;
+
+insert into libros
+values
+('A12345','JP',30,'Aprenda SQL',1),
+('A12346','JP',30,'Aprenda SQL',1)
+
+select * from public.libros;
+
